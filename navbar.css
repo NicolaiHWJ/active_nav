@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.active {
+	color: #3CC2D8;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ECECEC;
+	margin: 0px auto;
+}
+
+li {
+    float: left;
+	margin: 4px;
+}
+
+nav a:hover { 
+		color:#61BFCF;
+		background-color: #D4D4D4;
+		}
+
+li a {
+    display: block;
+    text-decoration: none;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	font-weight:bolder;
+	color:#9B9B9B;
+    padding: 20% 15px;
+	transition: all linear 0.15s; /* giver knapperne fade effekt */
+}
+
+body h1{
+	margin: 100px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+}
+
+
+footer {
+	position: fixed;
+	text-align:center;
+    bottom: 0;
+    width: 100%;
+	background-color: #ECECEC;
+	height: 10%;
+}
+
+footer p {
+	text-decoration: none;
+	font-family: helvetica, sans-serif;
+	padding-top: 30px;
+}
